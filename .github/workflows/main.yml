@@ -71,4 +71,4 @@ deploy:
           sudo docker pull kr0shkaen0t/actions
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 kr0shkaen0t/actions
+          sudo docker run --rm -d -p 5000:5000 kr0shkaen0t/actions:latest
